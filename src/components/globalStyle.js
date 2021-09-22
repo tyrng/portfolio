@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components"
-import wallpaper from '../images/wallpaper.jpg';
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -8,8 +7,6 @@ const GlobalStyle = createGlobalStyle`
     html {
         width: 100%;
         height: 100%;
-        background-image: url(${wallpaper});
-        background-color: #cccccc;
     }
     body {
         width: 100%;

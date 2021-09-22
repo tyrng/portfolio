@@ -4,6 +4,7 @@ import styled from "styled-components"
 import GlobalStyle from "./globalStyle"
 import Header from "./header"
 import Footer from "./footer"
+import wallpaper from '../images/wallpaper.jpg';
 
 const StyledLayout = styled.div`
 width: 100%;
@@ -12,6 +13,8 @@ margin: 0 auto;
 display: grid;
 grid-template-rows: auto 1fr auto;
 grid-template-columns: 100%;
+background-image: url(${wallpaper});
+background-color: #cccccc;
 #main-content {
   width: 100%;
   max-width: 62.5rem;
